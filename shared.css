@@ -3,10 +3,30 @@ body {
   margin: 0;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px;
+}
+
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  margin-left: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
 }
 
 #page-logo a {
